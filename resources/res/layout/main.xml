@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:id="@+id/linear4" android:padding="8dp" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="horizontal" android:id="@+id/linear5" android:background="@drawable/logo" android:padding="8dp" android:layout_width="200dp" android:layout_height="200dp" android:layout_marginLeft="60dp"/>
+        <TextView android:textSize="20sp" android:textColor="#000000" android:id="@+id/textview3" android:padding="8dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Name"/>
+        <EditText android:textSize="14sp" android:textColor="#000000" android:textColorHint="#607d8b" android:id="@+id/edittext1" android:padding="8dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Your Name"/>
+        <TextView android:textSize="20sp" android:textColor="#000000" android:id="@+id/textview4" android:padding="8dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Branch"/>
+        <EditText android:textSize="14sp" android:textColor="#000000" android:textColorHint="#607d8b" android:id="@+id/edittext2" android:padding="8dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Your Branch"/>
+        <Button android:textSize="25sp" android:textStyle="bold" android:textColor="#000000" android:id="@+id/button1" android:padding="8dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="30dp" android:layout_marginRight="30dp" android:text="Login"/>
+        <TextView android:textSize="12sp" android:textColor="#000000" android:id="@+id/textview5" android:paddingLeft="50dp" android:paddingTop="8dp" android:paddingRight="8dp" android:paddingBottom="8dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Forget Password"/>
+        <TextView android:textSize="14sp" android:textColor="#f44336" android:id="@+id/textview1" android:padding="8dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Get Registered Now"/>
+    </LinearLayout>
+</LinearLayout>

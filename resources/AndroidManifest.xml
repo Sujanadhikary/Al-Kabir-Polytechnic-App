@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="2" android:versionName="1.4" package="com.my.alkabirin" platformBuildVersionCode="27" platformBuildVersionName="8.1.0">
+    <uses-sdk android:minSdkVersion="19" android:targetSdkVersion="27"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <application android:theme="@style/AppTheme" android:label="AKP" android:icon="@drawable/app_icon" android:name="com.p004my.alkabirin.SketchApplication" android:allowBackup="true" android:largeHeap="true">
+        <activity android:name="com.p004my.alkabirin.MainActivity" android:screenOrientation="portrait" android:configChanges="orientation|screenSize" android:windowSoftInputMode="stateHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.p004my.alkabirin.NeepageActivity" android:screenOrientation="portrait" android:configChanges="orientation|screenSize" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.p004my.alkabirin.WebpagemainActivity" android:screenOrientation="portrait" android:configChanges="orientation|screenSize" android:windowSoftInputMode="stateHidden"/>
+        <activity android:theme="@style/AppTheme.FullScreen" android:name=".AlkabirwebsiteActivity" android:screenOrientation="portrait" android:configChanges="orientation|screenSize" android:windowSoftInputMode="stateHidden"/>
+        <activity android:theme="@style/AppTheme.FullScreen" android:name="com.p004my.alkabirin.UptadeActivity" android:screenOrientation="portrait" android:configChanges="orientation|screenSize" android:windowSoftInputMode="stateHidden"/>
+        <activity android:theme="@style/AppTheme.FullScreen" android:name="com.p004my.alkabirin.AboutpageActivity" android:screenOrientation="portrait" android:configChanges="orientation|screenSize" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.p004my.alkabirin.AlkabirinwebpageActivity" android:screenOrientation="portrait" android:configChanges="orientation|screenSize" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.p004my.alkabirin.SbtewebpageActivity" android:screenOrientation="portrait" android:configChanges="orientation|screenSize" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.p004my.alkabirin.GyanjyotiActivity" android:screenOrientation="portrait" android:configChanges="orientation|screenSize" android:windowSoftInputMode="stateHidden"/>
+        <activity android:theme="@style/AppTheme.FullScreen" android:name="com.p004my.alkabirin.SyllabusActivity" android:screenOrientation="portrait" android:configChanges="orientation|screenSize"/>
+        <activity android:theme="@style/AppTheme.FullScreen" android:name="com.p004my.alkabirin.ForgetpasswordActivity" android:screenOrientation="portrait" android:configChanges="orientation|screenSize"/>
+        <activity android:name="com.p004my.alkabirin.RegisterActivity" android:screenOrientation="portrait" android:configChanges="orientation|screenSize"/>
+        <activity android:name="com.p004my.alkabirin.DebugActivity" android:screenOrientation="portrait"/>
+        <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version"/>
+        <provider android:name="com.google.firebase.provider.FirebaseInitProvider" android:exported="false" android:authorities="com.my.alkabirin.firebaseinitprovider" android:initOrder="100"/>
+    </application>
+</manifest>

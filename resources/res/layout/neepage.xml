@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/base" android:background="#263238" android:padding="8dp" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ImageView android:id="@+id/imageview1" android:layout_width="100dp" android:layout_height="100dp" android:src="@drawable/logo" android:scaleType="centerInside"/>
+        <TextView android:textSize="20sp" android:textStyle="bold" android:textColor="#cfd8dc" android:id="@+id/textview2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Welcome To"/>
+        <TextView android:textSize="16sp" android:textStyle="bold" android:textColor="#cfd8dc" android:id="@+id/textview1" android:padding="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Al-Kabir Polytechnic"/>
+        <Button android:textSize="18sp" android:textStyle="normal|bold|italic" android:textColor="#ff1744" android:id="@+id/button1" android:padding="8dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="NOTICE BOARD "/>
+        <Button android:textSize="16sp" android:textStyle="bold" android:textColor="#ffeb3b" android:id="@+id/button3" android:padding="8dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="UPDATES APP"/>
+        <Button android:textSize="18sp" android:textStyle="normal|bold|italic" android:textColor="#4caf50" android:id="@+id/button2" android:padding="8dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="WEBSITES"/>
+        <Button android:textSize="12sp" android:textStyle="bold" android:textColor="#000000" android:id="@+id/button4" android:padding="8dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="ABOUT"/>
+        <TextView android:textSize="12sp" android:textColor="#bdbdbd" android:id="@+id/textview3" android:padding="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Developed By Sujan Adhikary"/>
+        <TextView android:textSize="12sp" android:textColor="#bdbdbd" android:id="@+id/textview4" android:padding="8dp" android:layout_width="wrap_content" android:layout_height="50dp" android:text="Please Give Your Valuable Feedback on \10         Email-sujanjsr0@gmail.com"/>
+        <Button android:textSize="14sp" android:textColor="#000000" android:id="@+id/button5" android:padding="1dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="8dp" android:text="DONATE"/>
+        <TextView android:textSize="10sp" android:textColor="#bdbdbd" android:id="@+id/textview5" android:padding="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="*This donation is for app developer(Sujan).NOT for the college ."/>
+    </LinearLayout>
+</LinearLayout>

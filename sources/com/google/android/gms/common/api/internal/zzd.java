@@ -1,0 +1,41 @@
+package com.google.android.gms.common.api.internal;
+
+import android.os.DeadObjectException;
+import android.support.annotation.NonNull;
+import com.google.android.gms.common.api.Api;
+import com.google.android.gms.common.api.Result;
+import com.google.android.gms.common.api.Status;
+import com.google.android.gms.common.api.internal.BaseImplementation;
+import com.google.android.gms.common.api.internal.BaseImplementation.ApiMethodImpl;
+import com.google.android.gms.common.api.internal.GoogleApiManager;
+
+public final class zzd<A extends BaseImplementation.ApiMethodImpl<? extends Result, Api.AnyClient>> extends zzb {
+    private final A zzdv;
+
+    public zzd(int i, A a) {
+        super(i);
+        this.zzdv = a;
+    }
+
+    public final void zza(@NonNull Status status) {
+        this.zzdv.setFailedResult(status);
+    }
+
+    public final void zza(GoogleApiManager.zza<?> zza) throws DeadObjectException {
+        try {
+            this.zzdv.run(zza.zzae());
+        } catch (RuntimeException e) {
+            zza(e);
+        }
+    }
+
+    public final void zza(@NonNull zzaa zzaa, boolean z) {
+        zzaa.zza((BasePendingResult<? extends Result>) this.zzdv, z);
+    }
+
+    public final void zza(@NonNull RuntimeException runtimeException) {
+        String simpleName = runtimeException.getClass().getSimpleName();
+        String localizedMessage = runtimeException.getLocalizedMessage();
+        this.zzdv.setFailedResult(new Status(10, new StringBuilder(String.valueOf(simpleName).length() + 2 + String.valueOf(localizedMessage).length()).append(simpleName).append(": ").append(localizedMessage).toString()));
+    }
+}

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <android.support.design.widget.AppBarLayout android:theme="@style/AppTheme.AppBarOverlay" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <android.support.p003v7.widget.Toolbar android:id="@+id/_toolbar" android:background="?attr/colorPrimary" android:layout_width="match_parent" android:layout_height="?attr/actionBarSize" app:popupTheme="@style/AppTheme.PopupOverlay"/>
+    </android.support.design.widget.AppBarLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/base" android:background="#263238" android:padding="8dp" android:layout_width="match_parent" android:layout_height="match_parent">
+            <Button android:textSize="25sp" android:textStyle="normal|bold|italic" android:textColor="#4caf50" android:id="@+id/button2" android:layout_width="match_parent" android:layout_height="80dp" android:text="Alkabir.in"/>
+            <Button android:textSize="25sp" android:textStyle="normal|bold|italic" android:textColor="#2196f3" android:id="@+id/button3" android:padding="8dp" android:layout_width="match_parent" android:layout_height="80dp" android:text="SBTE/JUT"/>
+            <Button android:textSize="25sp" android:textStyle="normal|bold|italic" android:textColor="#ff5722" android:id="@+id/button4" android:padding="8dp" android:layout_width="match_parent" android:layout_height="80dp" android:text="GYANJYOTI"/>
+            <LinearLayout android:orientation="horizontal" android:id="@+id/linear1" android:padding="8dp" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+            <LinearLayout android:orientation="horizontal" android:id="@+id/linear2" android:padding="8dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="12sp" android:textStyle="italic" android:textColor="#fbc02d" android:id="@+id/textview1" android:padding="8dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="                          *Check For Updates If Available "/>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@+id/linear3" android:padding="8dp" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        </LinearLayout>
+    </LinearLayout>
+</android.support.design.widget.CoordinatorLayout>

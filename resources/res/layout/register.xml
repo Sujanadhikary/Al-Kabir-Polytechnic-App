@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/base" android:background="#263238" android:padding="8dp" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ImageView android:id="@+id/imageview1" android:layout_width="100dp" android:layout_height="100dp" android:src="@drawable/icon_java_20190120103600" android:scaleType="centerInside"/>
+        <LinearLayout android:orientation="horizontal" android:id="@+id/linear9" android:padding="8dp" android:layout_width="55dp" android:layout_height="55dp"/>
+        <LinearLayout android:orientation="horizontal" android:id="@+id/linear8" android:padding="8dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="14sp" android:textColor="#ffffff" android:id="@+id/textview4" android:padding="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Username"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@+id/linear4" android:padding="8dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <EditText android:textSize="14sp" android:textColor="#ffffff" android:textColorHint="#607d8b" android:id="@+id/edittext3" android:padding="8dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:imeOptions="actionNext"/>
+        </LinearLayout>
+        <LinearLayout android:gravity="bottom" android:orientation="horizontal" android:id="@+id/linear2" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="14sp" android:textColor="#ffffff" android:id="@+id/txt_email" android:padding="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Email"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@+id/linear6" android:padding="8dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <EditText android:textSize="14sp" android:textColor="#ffffff" android:textColorHint="#607d8b" android:id="@+id/edittext1" android:padding="8dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:imeOptions="actionNext"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@+id/linear5" android:padding="8dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <Button android:textSize="12sp" android:textColor="#ffffff" android:id="@+id/button1" android:background="#2979ff" android:padding="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="register"/>
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/linear7" android:padding="8dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="12sp" android:textColor="#000000" android:id="@+id/textview5" android:padding="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="forgot"/>
+        </LinearLayout>
+        <TextView android:textSize="12sp" android:textColor="#ffffff" android:id="@+id/textview3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="already"/>
+    </LinearLayout>
+</LinearLayout>
